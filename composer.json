@@ -1,0 +1,20 @@
+{
+    "name": "jerek/jerek-user",
+    "description": "User module for Jerek's ZF2 projects",
+    "homepage": "https://github.com/jerek/jerek-user",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:jerek/jerek-base.git"
+        }
+    ],
+    "require": {
+        "jerek/jerek-base": "dev-master",
+        "zf-commons/zfc-user-doctrine-orm": "0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "JerekUser\\": "src/"
+        }
+    }
+}
