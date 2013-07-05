@@ -7,4 +7,10 @@ return [
             'zfcuser_doctrine_em' => 'Doctrine\ORM\EntityManager',
         ],
     ],
+
+    'spiffy_navigation' => include __DIR__ . '/navigation.config.php',
+
+    'zfcuser' => [
+        'logout_redirect_route' => 'home',
+    ],
 ];
