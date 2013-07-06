@@ -11,6 +11,9 @@ return [
     'spiffy_navigation' => include __DIR__ . '/navigation.config.php',
 
     'zfcuser' => [
+        'login_redirect_route' => 'rooms',
         'logout_redirect_route' => 'home',
+        'enable_display_name' => true,
+        'use_registration_form_captcha' => true,
     ],
 ];
